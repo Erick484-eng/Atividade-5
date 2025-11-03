@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade dos Filhos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calcular Idade do Filho Mais Velho</h1>
+        <div class="input-group">
+            <label for="idadeMonica">Idade de Dona Mônica:</label>
+            <input type="number" id="idadeMonica">
+        </div>
+        <div class="input-group">
+            <label for="idadeFilhoA">Idade do primeiro filho:</label>
+            <input type="number" id="idadeFilhoA">
+        </div>
+        <div class="input-group">
+            <label for="idadeFilhoB">Idade do segundo filho:</label>
+            <input type="number" id="idadeFilhoB">
+        </div>
+        <button onclick="calcularIdadeMaisVelho()">Calcular</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
